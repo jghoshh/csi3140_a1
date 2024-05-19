@@ -3,4 +3,4 @@ Our solution to the first assignment of CSI3140: a resume profile built using HT
 
 ## Members 
 - Jay Ghosh; student number: 300243766
-- Noah do Régo; student number: 
+- Noah do Régo; student number: 300234846
