@@ -2,5 +2,5 @@
 Our solution to the first assignment of CSI3140: a resume profile built using HTML and CSS.
 
 ## Members 
-- Jay Ghosh
-- Noah do Régo 
+- Jay Ghosh; student number: 300243766
+- Noah do Régo; student number: 
