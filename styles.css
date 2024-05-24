@@ -1,5 +1,10 @@
 /* Element styles */
 
+body {
+  background-color: #333;
+  font-family: "Montserrat", sans-serif;
+}
+
 header,
 footer {
   text-align: center;
@@ -8,19 +13,59 @@ footer {
 h1 {
   font-size: 36px;
   margin-bottom: 10px;
+  color: white;
 }
 
 h2,
 h3 {
   margin-left: 10px;
   margin-bottom: 10px;
+  color: white;
 }
 
-li {
-  padding-bottom: 5px;
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  display: inline-block;
+  text-align: left;
+}
+
+li.nav {
+  float: left;
+}
+
+li.nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.nav a:hover {
+  background-color: #e5e5e5;
+  color: #333;
+  border-radius: 20px;
 }
 
 /* Class styles */
+
+.navbar {
+  background-color: #333;
+  justify-content: center;
+  text-align: center;
+}
+
+.resume-container {
+  width: 90%;
+  min-height: 500px;
+  background-color: white;
+  margin: auto;
+  border-radius: 20px;
+}
 
 .details {
   font-style: italic;
