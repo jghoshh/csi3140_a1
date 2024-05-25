@@ -22,7 +22,6 @@ h1.black {
 
 h2,
 h3 {
-  margin-left: 10px;
   margin-bottom: 10px;
   color: white;
 }
@@ -55,12 +54,26 @@ li.nav a:hover {
   border-radius: 20px;
 }
 
+a.link {
+  background-color: white;
+  padding: 2px;
+  border-radius: 2px;
+}
+
 /* Class styles */
 
 .navbar {
   background-color: #333;
   justify-content: center;
   text-align: center;
+}
+
+.about-me-container {
+  padding: 5%;
+  margin: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
 }
 
 .resume-container {
@@ -74,7 +87,7 @@ li.nav a:hover {
 
 .center-section {
   margin: auto;
-  width: 50%;
+  width: 90%;
   text-align: center;
 }
 
@@ -98,4 +111,30 @@ li.nav a:hover {
 .fill-space {
   height: fit-content;
   width: 100%;
+}
+
+.display-name {
+  font-size: 6vw;
+}
+
+.about-me-img {
+  position: relative;
+  width: 30%;
+  height: 30%;
+  border-radius: 50%;
+  margin-right: 3%;
+}
+
+.vl {
+  border-left: 6px solid white;
+  height: 100px;
+  position: relative;
+  left: 50%;
+  width: 5px;
+  margin-left: -3px;
+  top: 0;
+}
+
+.white-text {
+  color: white;
 }
