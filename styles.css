@@ -54,6 +54,12 @@ li.nav a:hover {
   border-radius: 20px;
 }
 
+a.link {
+  background-color: white;
+  padding: 2px;
+  border-radius: 2px;
+}
+
 /* Class styles */
 
 .navbar {
@@ -81,7 +87,7 @@ li.nav a:hover {
 
 .center-section {
   margin: auto;
-  width: 50%;
+  width: 90%;
   text-align: center;
 }
 
@@ -117,6 +123,16 @@ li.nav a:hover {
   height: 30%;
   border-radius: 50%;
   margin-right: 3%;
+}
+
+.vl {
+  border-left: 6px solid white;
+  height: 100px;
+  position: relative;
+  left: 50%;
+  width: 5px;
+  margin-left: -3px;
+  top: 0;
 }
 
 .white-text {
