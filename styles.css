@@ -13,17 +13,11 @@ footer {
 h1 {
   font-size: 36px;
   margin-bottom: 10px;
-  color: white;
-}
-
-h1.black {
-  color: #333;
 }
 
 h2,
 h3 {
   margin-bottom: 10px;
-  color: white;
 }
 
 ul.nav {
@@ -115,6 +109,7 @@ a.link {
 
 .display-name {
   font-size: 6vw;
+  color: white;
 }
 
 .about-me-img {
