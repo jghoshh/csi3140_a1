@@ -17,7 +17,7 @@
             <ul class="nav">
                 <li class="nav"><a class="active" href="#about-us">About Us</a></li>
                 <li class="nav"><a href="#resumes">Resumes</a></li>
-                <li class="nav"><a href="#project">Project</a></li>
+                <li class="nav"><a href="#project">Projects</a></li>
             </ul>
         </div>
     </header>
@@ -39,7 +39,9 @@
             <div>
                 <h2 class="display-name">Jay Ghosh</h2>
                 <p class="white-text">I'm a third-year Computer Science student at the University of Ottawa. I have
-                    experience in back-end and full-stack development. I seek new positions in the realms of distributed
+                    experience in back-end and full-stack
+                    development/Users/noahd/dev/uni_stuff/csi3140/pacman/csi3140_a2/docs/design_system/images/game_in_progress.png.
+                    I seek new positions in the realms of distributed
                     systems and high-performance computing.</p>
             </div>
         </div>
@@ -402,6 +404,44 @@
             </div>
         </div>
         <h1 class="white-text" id="project">Projects</h1>
+        <div class="center-section">
+            <h2 class="display-name">1D Pacman</h2>
+            <p class="white-text">1D Pacman was built for assignment 2 in CSI3140 by Noah and Jay. It features reactive
+                gameplay, and a scoring system.</p>
+            <p class="white-text">You can play the game <a class="link" href="./pacman/pacman.html" target="_blank">by
+                    clicking here.</a></p>
+            <h3 class="white-text">Visual Outline</h3>
+            <img src="../images/1d_pacman.png" alt="Image of terrible taxi gameplay" width="40%" />
+            <h3 class="white-text">Technical Outline</h3>
+            <br>
+            <h4 class="white-text">Rules:</h4>
+            <ul class="white-text">
+                <li>Use the `LEFT` and `RIGHT` arrow keys to move PACMAN consume as many pellets as possible without
+                    encountering a ghost.</li>
+                <li>If PACMAN encounters a ghost, the game ends and the final score is printed out.</li>
+                <li>If PACMAN encounters a cherry, the ghosts on the board are turned into surprised faces, and can be
+                    eaten.</li>
+                <li>If PACMAN encounters a suprised face, PACMAN consumes it and gains 5 points.</li>
+                <li>If PACMAN encounters a hollow circle, PACMAN consumes it and gains 1 point.</li>
+            </ul>
+            <br>
+            <h4 class="white-text">Mechanics:</h4>
+            <p class="white-text">The core gameplay loop is implemented through multiple JS functions:</p>
+            <ul class="white-text">
+                <li><b>createGame():</b> Initializes an array of "pellets" of size n (set to 10) to be used as the game
+                    board,
+                    sets Pacman to be the middle element and spawns the fruit item at a random location (using
+                    fruitSpawnLocation())</li>
+                <li><b>movePac(), checkLocation():</b> movePac includes the necessary logic for moving Pacman, and
+                    checkLocation includes the logic for executing code based on the location moved to (end game if
+                    ghost, allocate points for pellets/eaten ghosts)</li>
+                <li><b>spawnGhost(), moveGhost():</b> The functions for spawning the ghost at a random location on the
+                    board and moving it every second</li>
+                <li><b>endGame():</b> The function called when Pacman runs into an active ghost (without the fruit
+                    powerup)</li>
+            </ul>
+        </div>
+        <br><br>
         <div class="center-section">
             <h2 class="display-name">TERRIBLE TAXI</h2>
             <img src="https://img.itch.zone/aW1nLzE1MDc2MTIxLnBuZw==/original/jWicJg.png"
